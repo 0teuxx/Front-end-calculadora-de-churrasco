@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    background-color: #732C02;
+    color: #F2BBBB;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    
+    .botao-link {
+        display: inline-block; /* Garante que padding e margem funcionem */
+        padding: 10px 20px; /* Espaçamento interno */
+        background-color: #007bff; /* Cor de fundo */
+        color: white; /* Cor do texto */
+        text-decoration: none; /* Remove o sublinhado */
+        border: none; /* Remove a borda padrão */
+        border-radius: 5px; /* Bordas arredondadas */
+        cursor: pointer; /* Mostra o cursor de "mãozinha" */
+        text-align: center; /* Centraliza o texto */
+      }
+      
+      .botao-link:hover {
+        background-color: #e0e0e0; /* Cor de fundo ao passar o mouse */
+      }
+      
+      .botao-link:active {
+        background-color: #ffffff; /* Cor de fundo ao clicar */
+        transform: translateY(1px); /* Efeito "pressionado" */
+        text-align: center;
+      }
+
+      
+}
+
