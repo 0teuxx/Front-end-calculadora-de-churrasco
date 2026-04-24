@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<<<<<<< HEAD
     <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
@@ -16,3 +17,18 @@
 
 <img src="/static/churrascos.jpg" width="650" height="450">
 </body>
+=======
+    <link rel="stylesheet" href="{{  url_for('static',filename='style.css')}}">
+</head>
+<body>
+    
+    <h1>Bem Vindos ao nosso churrasquinho !!</h1>
+    <img src="{{ url_for('static',filename='churrascos.jpg')}}" width="650px" height="450px">
+
+    <a href="{{ url_for('churrasco') }}" 
+    <br><br><br>
+    <input type="submit" value="Clique aqui">
+   
+</body>
+</html>
+>>>>>>> ed41265f595d347b95a6d07b7d1b2a4cd11866b4
